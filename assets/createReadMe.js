@@ -1,5 +1,4 @@
-function createReadMe(title) {
-    const cjackson152 = title;
+function createReadMe() {
     return 'https://github.com/cjackson152/Slapps';
 
 }
