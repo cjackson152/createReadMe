@@ -1,41 +1,38 @@
-function createProjectReadMe() {
-    return 'https://github.com/cjackson152/Slapps';
-
-}
 
 function buildReadMe(data) {
     return `
+    # Project(#projectName)
     ${data.projectName}
     # Description
     ${data.projectDescription}
-    # Project(#projectName)
-
-    ## Index
     
-    ### Contact(#email)
 
-    ### Install(#projectInstalls)
+    ## **Index**
+    
+    ### *[Contact](#email)*
 
-    ### Status(#projectStatus)
+    ### *[Instal](#projectInstalls)*
 
-    ### Project Link(#projectLink)
+    ### *[Status](#projectStatus)*
 
-    # Contact
+    ### *[Project Link](#projectLink)*
+
+    # **Contact**
 
     ${data.email}\
     
 
-    # Project required installs
+    # **Project required installs**
 
     ${data.projectInstalls}\
     
 
-    # Project Status
+    # **Project Status**
 
     ${data.projectStatus}\
     
 
-    # Project Link
+    # **Project Link**
 
     ${data.projectLink}\
     

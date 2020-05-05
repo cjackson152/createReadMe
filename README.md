@@ -1,32 +1,33 @@
 
+    # Project(#projectName)
     
     # Description
     
-    # Project(#projectName)
-
-    ## Index
     
-    ### Contact(#email)
 
-    ### Install(#projectInstalls)
+    ## **Index**
+    
+    ### *[Contact](#email)*
 
-    ### Status(#projectStatus)
+    ### *[Instal](#projectInstalls)*
 
-    ### Project Link(#projectLink)
+    ### *[Status](#projectStatus)*
 
-    # Contact
+    ### *[Project Link](#projectLink)*
+
+    # **Contact**
 
     cole_jackson@live.com    
 
-    # Project required installs
+    # **Project required installs**
 
     npm i    
 
-    # Project Status
+    # **Project Status**
 
     Work in Progress    
 
-    # Project Link
+    # **Project Link**
 
         
 
