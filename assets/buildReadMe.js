@@ -6,29 +6,39 @@ function createProjectReadMe() {
 function buildReadMe(data) {
     return `
     ${data.projectName}
-    Description
+    # Description
     ${data.projectDescription}
-    Project(#project-name)
+    # Project(#projectName)
 
-    Index
+    ## Index
     
-    Contact(#email)
+    ### Contact(#email)
 
-    Install(#projectInstalls)
+    ### Install(#projectInstalls)
 
-    Status(#projectStatus)
+    ### Status(#projectStatus)
 
-    Project Link(#projectLink)
+    ### Project Link(#projectLink)
 
-    \
+    # Contact
+
     ${data.email}\
-    \
+    
+
+    # Project required installs
+
     ${data.projectInstalls}\
-    \
+    
+
+    # Project Status
+
     ${data.projectStatus}\
-    \
+    
+
+    # Project Link
+
     ${data.projectLink}\
-    \
+    
 
 
     `
