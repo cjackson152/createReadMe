@@ -1,39 +1,41 @@
 
 function buildReadMe(data) {
     return `
-    # Project(#projectName)
+    Project Name
+    ==============
     ${data.projectName}
-    # Description
+    Description
+    ==============
     ${data.projectDescription}
     
 
-    ## **Index**
-    
-    ### *[Contact](#email)*
-
-    ### *[Instal](#projectInstalls)*
-
-    ### *[Status](#projectStatus)*
-
-    ### *[Project Link](#projectLink)*
-
-    # **Contact**
-
+    **Index**
+    ==============
+    *[Contact](#email)*
+    --------------
+    *[Instal](#projectInstalls)*
+    --------------
+    *[Status](#projectStatus)*
+    --------------
+    *[Project Link](#projectLink)*
+    --------------
+    **Contact**
+    ==============
     ${data.email}\
     
 
-    # **Project required installs**
-
+    **Project required installs**
+    ==============
     ${data.projectInstalls}\
     
 
-    # **Project Status**
-
+    **Project Status**
+    ==============
     ${data.projectStatus}\
     
 
-    # **Project Link**
-
+    **Project Link**
+    ==============
     ${data.projectLink}\
     
 
