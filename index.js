@@ -1,48 +1,51 @@
 const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
-const createReadMe =  require('./assets/createReadMe');
+const buildReadMe =  require('./assets/buildReadMe');
 const questions = [
     {
         type: 'input',
         name: 'username',
         message: 'Please enter GitHub username.',
+        default: 'Cjackson152'
     },
     {
         type: 'input',
         name: 'email',
         message: 'Please enter your Email',
+        default: 'cole_jackson@live.com'
 
     },
     {
         type: 'input',
-        name: 'project-name',
+        name: 'projectName',
         message: 'Please name your Project'
 
     },
     {
         type: 'input',
-        name: 'project-description',
+        name: 'projectDescription',
         message: 'Describe your project'
 
     },
     {
         type: 'input',
-        name: 'project-link',
+        name: 'projectLink',
         message: 'please link your project'
     },
 
 
     {
         type: 'input',
-        name: 'project-installs',
+        name: 'projectInstalls',
         message: 'please install, use npm i',
         default: 'npm i'
     },
     {
         type: 'input',
-        name: 'project-status',
+        name: 'projectStatus',
         message: 'Where are you at on this project, currently?',
+        default: 'Work in Progress'
     },
 
    /*questions for generating readmes for work
@@ -72,12 +75,12 @@ const questions = [
 ];
 
 function writeToFile(filename, data) {
-    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+    return fs.writeFileSync(path.join(process.cwd(), filename), data);
 }
 
 function init() {
     inquirer.prompt(questions).then((inquirerResponses) => {
-        writeToFile('README.md', createReadMe({...inquirerResponses}));
+        writeToFile('README.md', buildReadMe({...inquirerResponses}));
     })
 }
 
