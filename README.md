@@ -1,37 +1,39 @@
 
-    # Project Name
+    Project Name
     ==============
+    Build A ReadMe
     
-    # Description
+    Description
     ==============
-    
+    command line application used to generate readmes
     
 
-    ## **Index**
+    **Index**
     ==============
-    ### *[Contact](#email)*
+    *[Contact](#email)*
     --------------
-    ### *[Instal](#projectInstalls)*
+    *[Instal](#projectInstalls)*
     --------------
-    ### *[Status](#projectStatus)*
+    *[Status](#projectStatus)*
     --------------
-    ### *[Project Link](#projectLink)*
+    *[Project Link](#projectLink)*
     --------------
-    # **Contact**
+    **Contact**
     ==============
+
     cole_jackson@live.com    
 
-    # **Project required installs**
+    **Project required installs**
     ==============
+
     npm i    
 
-    # **Project Status**
+    **Project Status**
     ==============
-    Work in Progress    
 
-    # **Project Link**
+    need to come back and work on formatting    
+
+    **Project Link**
     ==============
-        
 
-
-    
+    https://github.com/cjackson152/createReadMe    
